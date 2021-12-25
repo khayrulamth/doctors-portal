@@ -1,0 +1,25 @@
+.appointment{
+    /* background-image: url('../../../Images/appointmentbg.png'); */
+    height: 400px;
+    position: relative;
+    background: rgb(36,41,73);
+    opacity: 0.9;
+}
+
+.appointment::after{
+    height:400px;
+    content:' ';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    background-image: url('../../../Images/appointmentbg.png');
+    background-size: cover;
+    opacity: .1;
+    z-index: -10;
+} 
+.doctor-img{
+    height: 450px;
+    transform: translateY(-100px);
+
+}
